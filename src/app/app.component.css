@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://res.cloudinary.com/jo-i/image/upload/v1604704938/180-1804478_pen-on-paper_cynlxl.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: #A7D2CB;
+  border-radius: 0px;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.newQuote{
+    background-color: white;
+    border-color: cadetblue;
+    color: cadetblue;
+}
+#content{
+    padding-top: 70px;
+}
