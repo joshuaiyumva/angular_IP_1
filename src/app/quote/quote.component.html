@@ -1,13 +1,17 @@
 <div class="container">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card">
-                <div class="card-body">
-                    <p>Hello There</p>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <div *ngFor='let Quotes of quotes;let i = index'>
+        <div class="card-body">
+          <h5 class="card-title text-muted">Author:</h5>
 
-                </div>
-                <a class="btn btn-sm btn-success">More>></a>
-            </div>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+            card's content.</p>
+          <h6 class="card-subtitle mb-2 text-muted">Published By: </h6>
+          <a href="#" class="card-link">More>></a>
         </div>
+      </div>
     </div>
+  </div>
 </div>
